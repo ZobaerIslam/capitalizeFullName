@@ -37,8 +37,11 @@ def word_capital(fullName):
     # Return the full name with capitalize
     return sentence
 
+# Input Full name and assign in: name
+name = input('Enter your Full Name: ')
+
 # Call word_capital() with passing full name and assign return value in: fname
-fName = word_capital("golam martuza shimul")
+fName = word_capital(name)
 
 # Print fName
 print(fName)
